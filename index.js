@@ -1,6 +1,7 @@
 #!/usr/bin/env node
 
 const inquirer = require('inquirer');
+const path = require('path');
 const fs = require('fs');
 
 const CHOICES = fs.readdirSync(`${__dirname}/templates`);
